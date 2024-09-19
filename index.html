@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>MarketSupply</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-2">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">MarketSupply</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#topNavbar"
+                aria-controls="topNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="topNavbar">
+                <div class="d-flex ms-auto align-items-center">
+                    <a class="nav-link text-white" href="#">My Account</a>
+                    <span class="divider text-white mx-2">|</span>
+                    <a class="nav-link text-white" href="#">Wishlist</a>
+                    <span class="divider text-white mx-2">|</span>
+                    <a class="nav-link text-white" href="#">My Cart</a>
+                    <span class="divider text-white mx-2">|</span>
+                    <a class="nav-link text-white" href="#">Checkout</a>
+                    <span class="divider text-white mx-2">|</span>
+                    <a class="nav-link text-white" href="#">Login</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="bg-dark py-2">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-12 col-md-8 mb-2 mb-md-0 d-flex justify-content-md-start justify-content-center">
+                    <form class="searchbar d-flex w-100">
+                        <input class="form-control me-2" type="search" placeholder="Search here..." aria-label="Search">
+                        <button class="btn btn-danger" type="submit">Search</button>
+                    </form>
+                </div>
+                <div
+                    class="col-12 col-md-4 d-flex justify-content-center justify-content-md-end align-items-center text-white">
+                    <i class="fas fa-shopping-cart me-2"></i>
+                    <span>TOTAL: $600.00</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="navmini">
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="nav-link text-white" href="#">Categories</a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Clothing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Electronics</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Health & Beauty</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Watches</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Jewellery</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#">Shoes</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+
+    <div class="section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="sidebar1">
+                        <a><i class="fa-regular fa-circle-play"></i> Clothing</a>
+                        <hr>
+                        <a><i class="fa-regular fa-circle-play"></i> Electronics</a>
+                        <hr>
+                        <a><i class="fa-regular fa-circle-play"></i> Shoes</a>
+                        <hr>
+                        <a><i class="fa-regular fa-circle-play"></i> Watches</a>
+                        <hr>
+                        <a><i class="fa-regular fa-circle-play"></i> Jewellery</a>
+                        <hr>
+                        <a><i class="fa-regular fa-circle-play"></i> Health and Beauty</a>
+                        <hr>
+                        <a><i class="fa-regular fa-circle-play"></i> Kids and Babies</a>
+                        <hr>
+                        <a><i class="fa-regular fa-circle-play"></i> Sports</a>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-6">
+                    <div class="img1">
+                        <img src="/assets/images/offerimg1.svg" alt="Discount Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- hotdeals -->
+    <section>
+        <div class="sec2">
+            <div class="container-fluid">
+                <div class="row">
+                    <!-- Sidebar Section -->
+                    <div class="col-lg-4 col-md-4 mb-4">
+                        <div class="sidebar2">
+                            <h5>HOT DEALS</h5>
+                            <hr>
+                            <img src="/assets/images/shoeimg.svg" alt="Shoe Image" class="img-fluid">
+                            <div class="shoeimgtitle">
+                                <p class="product-title">Lorem ipsum dolor</p>
+                                <div class="shoeimgprice">
+                                    <span class="old-price"><del>$100.00</del></span>
+                                    <span class="current-price">$90.00</span>
+                                </div>
+                                <div class="rating">
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                    <span class="star">★</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Main Product Section -->
+                    <div class="col-lg-9 col-md-8">
+                        <div class="maincard11">
+                            <div class="row">
+                                <div class="col-12 maincard2-naviteams">
+                                    <h5 class="latest-products-title">NEW PRODUCTS</h5>
+                                </div>
+                                <div class="product-links ">
+                                    <a class="mx-2">All</a>
+                                    <a class="mx-2">Clothing</a>
+                                    <a class="mx-2">Electronics</a>
+                                    <a class="mx-2">Shoes</a>
+                                </div>
+                                <hr>
+
+                                <!-- Product Cards -->
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                    <div class="maincard1pic1">
+                                        <img src="/assets/images/fastiongirl.jpg" alt="Product Image 1"
+                                            class="img-fluid">
+                                    </div>
+                                    <div class="pro1">
+                                        <p class="product-description">Lorem ipsum dolor</p>
+                                        <div class="price">
+                                            <span class="original-price"><del>$100.00</del></span>
+                                            <span class="current-price">$90.00</span>
+                                        </div>
+                                        <div class="rating">
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                    <div class="maincard1pic2">
+                                        <img src="/assets/images/laptap.jpg" alt="Product Image 2" class="img-fluid">
+                                    </div>
+                                    <div class="pro2">
+                                        <p class="product-description">Lorem ipsum dolor</p>
+                                        <div class="price">
+                                            <span class="original-price"><del>$100.00</del></span>
+                                            <span class="current-price">$90.00</span>
+                                        </div>
+                                        <div class="rating">
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                    <div class="maincard1pic3">
+                                        <img src="/assets/images/bagpack.jpg" alt="Product Image 3" class="img-fluid">
+                                    </div>
+                                    <div class="pro1">
+                                        <p class="product-description">Lorem ipsum dolor</p>
+                                        <div class="price">
+                                            <span class="original-price"><del>$100.00</del></span>
+                                            <span class="current-price">$90.00</span>
+                                        </div>
+                                        <div class="rating">
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                    <div class="maincard1pic4">
+                                        <img src="/assets/images/computermonoter.webp" alt="Product Image 4"
+                                            class="img-fluid">
+                                    </div>
+                                    <div class="pro4">
+                                        <p class="product-description">Lorem ipsum dolor</p>
+                                        <div class="price">
+                                            <span class="original-price"><del>$100.00</del></span>
+                                            <span class="current-price">$90.00</span>
+                                        </div>
+                                        <div class="rating">
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- card2 -->
+    <section>
+        <div class="sec3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="sidebar3">
+                            <h5 class="special-deal-title">SPECIAL DEAL</h5>
+                            <hr>
+                            <img src="/assets/images/bagpack.jpg" alt="Hot Deals Image" class="img-fluid">
+                            <p class="deal-description">Lorem ipsum dolor</p>
+                            <div class="price">
+                                <span class="old-price"><del>$100.00</del></span>
+                                <span class="current-price">$90.00</span>
+                            </div>
+                            <div class="rating">
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                                <span class="star">★</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="maincard3pic1">
+                            <img src="/assets/images/banner-1.png">
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="maincard3pic2">
+                            <img src="/assets/images/banner-2.jpg">
+
+                        </div>
+                    </div>
+
+                    <!--  -->
+                    <div class="col-lg-4">
+                        <div class="sidebar4">
+                            <h5>NEWSLETTERS</h5>
+                            <p>Sign Up for Our Newsletter!</p>
+                            <form>
+                                <input type="text" class="inputbar">
+                            </form>
+                            <div class="sidebar4btn1">
+                                <button class="sidebtt btn btn-danger">SUBSCRIBE</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-9 col-md-8">
+                        <div class="maincard4">
+                            <div class="row">
+                                <div class="col-12 maincard2-naviteams">
+                                    <h5 class="latest-products-title">LATEST PRODUCTS</h5>
+                                </div>
+                                <div class="product-links">
+                                    <a class="mx-2">All</a>
+                                    <a class="mx-2">Clothing</a>
+                                    <a class="mx-2">Electronics</a>
+                                    <a class="mx-2">Shoes</a>
+                                </div>
+                                <hr>
+
+                                <!-- Product Cards -->
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                    <div class="maincard4pic1">
+                                        <img src="/assets/images/nx1003_720x.jpg" alt="Product Image 1"
+                                            class="img-fluid">
+                                    </div>
+                                    <div class="pro10">
+                                        <p class="product-description">Lorem ipsum dolor</p>
+                                        <div class="price">
+                                            <span class="original-price"><del>$100.00</del></span>
+                                            <span class="current-price">$90.00</span>
+                                        </div>
+                                        <div class="rating">
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                    <div class="maincard4pic2">
+                                        <img src="/assets/images/clgbagpack.jpg" alt="Product Image 2"
+                                            class="img-fluid">
+                                    </div>
+                                    <div class="pro11">
+                                        <p class="product-description">Lorem ipsum dolor</p>
+                                        <div class="price">
+                                            <span class="original-price"><del>$100.00</del></span>
+                                            <span class="current-price">$90.00</span>
+                                        </div>
+                                        <div class="rating">
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                    <div class="maincard4pic3">
+                                        <img src="/assets/images/hoodie.jpg" alt="Product Image 3" class="img-fluid">
+                                    </div>
+                                    <div class="pro12">
+                                        <p class="product-description">Lorem ipsum dolor</p>
+                                        <div class="price">
+                                            <span class="original-price"><del>$100.00</del></span>
+                                            <span class="current-price">$90.00</span>
+                                        </div>
+                                        <div class="rating">
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 col-sm-6 mb-4">
+                                    <div class="maincard4pic4">
+                                        <img src="/assets/images/mouse.webp" alt="Product Image 4" class="img-fluid">
+                                    </div>
+                                    <div class="pro13">
+                                        <p class="product-description">Lorem ipsum dolor</p>
+                                        <div class="price">
+                                            <span class="original-price"><del>$100.00</del></span>
+                                            <span class="current-price">$90.00</span>
+                                        </div>
+                                        <div class="rating">
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                            <span class="star">★</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="bodywash">
+                            <img src="/assets/images/dove.jpg">
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="laptapbaner">
+                            <img src="/assets/images/Screenshot 2024-09-07 195551.png">
+                        </div>
+                    </div>
+
+                    <div class="fp">
+                        <div class="col-lg-8">
+                            <div class="featuredproducts">
+                                <h5>FEATURED PRODUCTS</h5>
+                                <hr>
+                                <div class="col-lg-12">
+                                    <div class="last">
+                                        <div class="col-lg-1">
+                                            <div class="fpimg1">
+                                                <img src="/assets/images/nx1003_720x.jpg">
+                                            </div>
+                                        </div>
+                                        <div class="fpbn1">
+                                            <p class="product-description">Lorem ipsum dolor</p>
+                                            <div class="price1">
+                                                <span class="original-price1"><del>$100.00</del></span>
+                                                <span class="current-price1">$90.00</span>
+                                            </div>
+                                            <div class="rating1">
+                                                <span class="star">★</span>
+                                                <span class="star">★</span>
+                                                <span class="star">★</span>
+                                                <span class="star">★</span>
+                                                <span class="star">★</span>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-1">
+                                            <div class="fpimg2">
+                                                <img src="/assets/images/cleaner.jpeg">
+                                            </div>
+                                        </div>
+                                        <div class="fpbn2">
+                                            <p class="product-description">Lorem ipsum dolor</p>
+                                            <div class="price2">
+                                                <span class="original-price2"><del>$100.00</del></span>
+                                                <span class="current-price2">$90.00</span>
+                                            </div>
+                                            <div class="rating2">
+                                                <span class="star">★</span>
+                                                <span class="star">★</span>
+                                                <span class="star">★</span>
+                                                <span class="star">★</span>
+                                                <span class="star">★</span>
+                                            </div>
+                                            <div class="col-lg-1">
+                                                <div class="fpimg3">
+                                                    <img src="/assets/images/tablefan.jpg">
+                                                </div>
+                                            </div>
+                                            <div class="fpbn3">
+                                                <p class="product-description">Lorem ipsum dolor</p>
+                                                <div class="price3">
+                                                    <span class="original-price3"><del>$100.00</del></span>
+                                                    <span class="current-price3">$90.00</span>
+                                                </div>
+                                                <div class="rating3">
+                                                    <span class="star">★</span>
+                                                    <span class="star">★</span>
+                                                    <span class="star">★</span>
+                                                    <span class="star">★</span>
+                                                    <span class="star">★</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-1">
+                                                <div class="fpimg4">
+                                                    <img src="/assets/images/1-57.jpg">
+                                                </div>
+                                            </div>
+                                            <div class="fpbn4">
+                                                <p class="product-description">Lorem ipsum dolor</p>
+                                                <div class="price4">
+                                                    <span class="original-price4"><del>$100.00</del></span>
+                                                    <span class="current-price4">$90.00</span>
+                                                </div>
+                                                <div class="rating4">
+                                                    <span class="star">★</span>
+                                                    <span class="star">★</span>
+                                                    <span class="star">★</span>
+                                                    <span class="star">★</span>
+                                                    <span class="star">★</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-1">
+                                                <div class="fpimg5">
+                                                    <img src="/assets/images/salomon.jpg">
+                                                </div>
+                                            </div>
+                                            <div class="fpbn5">
+                                                <p class="product-description">Lorem ipsum dolor</p>
+                                                <div class="price5">
+                                                    <span class="original-price5"><del>$100.00</del></span>
+                                                    <span class="current-price5">$90.00</span>
+                                                </div>
+                                                <div class="rating5">
+                                                    <span class="star">★</span>
+                                                    <span class="star">★</span>
+                                                    <span class="star">★</span>
+                                                    <span class="star">★</span>
+                                                    <span class="star">★</span>
+                                                </div>
+                                            </div>
+
+                                            <div class="col-lg-1">
+                                                <div class="fpimg6">
+                                                    <img src="/assets/images/self.jpeg">
+                                                </div>
+                                            </div>
+                                            <div class="fpbn6">
+                                                <p class="product-description">Lorem ipsum dolor</p>
+                                                <div class="price6">
+                                                    <span class="original-price6"><del>$100.00</del></span>
+                                                    <span class="current-price6">$90.00</span>
+                                                </div>
+                                                <div class="rating6">
+                                                    <span class="star">★</span>
+                                                    <span class="star">★</span>
+                                                    <span class="star">★</span>
+                                                    <span class="star">★</span>
+                                                    <span class="star">★</span>
+                                                </div>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--mini footer -->
+    <section>
+        <div class="footer-container">
+            <div class="minifooter">
+                <img class="mini71" src="/assets/images/logo-1.png" alt="Inc 5000" height="50">
+                <img class="mini71" src="/assets/images/logo-2.png" alt="ABC" height="50">
+                <img class="mini71" src="/assets/images/logo-3.png" alt="Irrigation Lighting" height="50">
+                <img class="mini71" src="/assets/images/logo-4.png" alt="Inc 500" height="50">
+                <img class="mini71  " src="/assets/images/logo-5.png" alt="Inc 500" height="50">
+            </div>
+        </div>
+    </section> <!--  -->
+    <section>
+        <div class="containerlast">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="footer">
+                        <h3 style="font-size:25px;font-weight: 500;">MARKETSUPPLY</h3>
+                        <p>This is Photoshop's version of Lorem Ipsum Proin gravida nell's cold word out there
+                        </p>
+
+                        <i style="color: red;" class="fa-solid fa-location-dot"></i>&nbsp;&#160; 0123 Main Road,
+                        Your
+                        City NY123456
+                        <pre></pre>
+                        <i style="color: red;" class="fa-solid fa-phone"></i>&nbsp;&#160;2345-6789
+                        <pre></pre>
+                        <i style="color: red;" class="fa-solid fa-envelope"></i>&nbsp;&#160;duputtreties.com
+
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="info1">
+                        <h3 style="color: white;">INFORMATION</h3>
+                        <span>Our Story</span><br>
+                        <pre></pre>
+                        <span> Privacy & Pulicy</span><br>
+                        <pre></pre>
+                        <span> Terms & Condit</span><br>
+                        <pre></pre>
+                        <span> Shipping & Delivery</span><br>
+                        <pre></pre>
+                        <span>Careers</span>
+                        <pre></pre>
+                        <span>TAQK</span>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="info2">
+                        <h3 style="color: white;">OUR SOCIAL</h3>
+                        <i style="color: red;" class="fa-brands fa-google-plus-g"></i>&nbsp;&#160;Google<br>
+                        <pre></pre>
+                        <i style="color: red;" class="fa-brands fa-square-pinterest"></i>&nbsp;&#160;Pinterest<br>
+                        <pre></pre>
+                        <i style="color: red;" class="fa-brands fa-instagram"></i>&nbsp;&#160;Instagram<br>
+                        <pre></pre>
+
+                        <i style="color: red;" class="fa-brands fa-facebook"></i>&nbsp;&#160;Facebook<br>
+                        <pre></pre>
+                        <i style="color: red;" class="fa-brands fa-twitter"></i>&nbsp;&#160;Twitter<br>
+                        <pre></pre>
+                        <i style="color: red;" class="fa-solid fa-rss"></i>&nbsp;&#160;RSS<br>
+                        <pre></pre>
+                        <i style="color: red;" class="fa-brands fa-youtube"></i>&nbsp;&#160;YouTube<br>
+                        <pre></pre>
+
+
+
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="info3">
+                        <h3 style="color:white;">OPENING TIME</h3>
+                        <i style="color: red;" class="fa-solid fa-calendar-week"></i>&nbsp;&#160;Monday-Friday:
+                        08:30am-09:30 pm<br>&nbsp;&#160;&nbsp;&#160;&nbsp;&#160;Sat-Sun 09:00 am-10:00 pm
+                    </div>
+                    <div class="info4">
+                        <h3>PAYMENT OPTION</h3>
+                        <i style="color: red;" class="fa-brands fa-cc-visa"></i>
+                        <i style="color: red;" class="fa-brands fa-cc-jcb"></i>
+                        <i style="color: red;" class="fa-brands fa-cc-stripe"></i>
+                        <i style="color: red;" class="fa-regular fa-credit-card"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- lastfooter -->
+    <section>
+        <div class="container-fluid lastline">
+            <div class="lastinfo">
+                <span>Sitemap</span>
+                <span>Searchs</span>
+                <span>Advance</span>
+                <span>Searchs</span>
+                <span>Contact Us</span>
+                <pre></pre>
+                <p>© 2024–2035 PSDF.COM™ | All Rights Reserved</p>
+
+            </div>
+        </div>
+
+    </section>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
